@@ -12,6 +12,7 @@ Demos
  * [SoftBody-Volume](https://rawcdn.githack.com/kripken/ammo.js/99d0ec0b1e26d7ccc13e013caba8e8a5c98d953b/examples/webgl_demo_softbody_volume/index.html)
  * [Heightmap](https://rawcdn.githack.com/kripken/ammo.js/99d0ec0b1e26d7ccc13e013caba8e8a5c98d953b/examples/webgl_demo_terrain/index.html)
  * [Vehicle](https://rawcdn.githack.com/kripken/ammo.js/99d0ec0b1e26d7ccc13e013caba8e8a5c98d953b/examples/webgl_demo_vehicle/index.html)
+ * [GImpact-Chain](https://rawcdn.githack.com/kripken/ammo.js/325d13a4bf40c1d490d81f3de40c5a80178390bc/examples/webgl_demo_gimpact_chain/index.html)
 
 
 Overview
