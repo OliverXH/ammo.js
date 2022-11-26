@@ -27,10 +27,6 @@ engine](http://bulletphysics.org/) to JavaScript, using Emscripten. The source
 code is translated directly to JavaScript, without human rewriting, so
 functionality should be identical to the original Bullet.
 
-**Note: ammo.js has just been updated to a new porting approach. If you find
-some part of the Bullet API that is not supported that you need, please see
-https://github.com/kripken/ammo.js/issues/60**
-
 'ammo' stands for "Avoided Making My Own js physics engine by compiling bullet
 from C++" ;)
 
@@ -164,8 +160,9 @@ This offers many advantages (keeping its native environment clean, portability, 
 To do this, you just have to install Docker and run:
 
   ```bash
-  $ docker-compose build  # to create the Docker image
-  $ docker-compose up     # to create the Docker container and build ammo.js
+  $ docker-compose build        # to create the Docker image
+  $ docker-compose up           # to create the Docker container and build ammo.js
+  $ docker-compose run builder  # to build again the ammojs targets after any modification
   ```
 
 If you want to add arguments to cmake, you have to edit the `docker-compose.yml` file. 
